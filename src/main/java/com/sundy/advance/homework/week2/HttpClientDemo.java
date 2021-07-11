@@ -1,4 +1,4 @@
-package com.sundy.advance.homework.week2.作业6;
+package com.sundy.advance.homework.week2;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -17,15 +17,16 @@ public class HttpClientDemo {
     public static void main(String[] args) {
         HttpClientDemo.doGet("http://localhost:8801");
     }
-    public static void doGet(String url) {
+    public static String doGet(String url) {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         HttpGet httpGet = new HttpGet(url);
         try {
             CloseableHttpResponse response = httpClient.execute(httpGet);
             HttpEntity entity = response.getEntity();
-            System.out.println("响应内容:" + EntityUtils.toString(entity));
+            return EntityUtils.toString(entity);
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 }

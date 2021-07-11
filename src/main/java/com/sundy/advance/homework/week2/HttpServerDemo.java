@@ -1,4 +1,4 @@
-package com.sundy.advance.homework.week2.作业6;
+package com.sundy.advance.homework.week2;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -19,7 +19,7 @@ public class HttpServerDemo {
             while (true) {
                 try {
                     final Socket socket = server.accept();
-                    executorService.execute(() -> service(socket));
+                    executorService.execute(() -> service(socket, "hello, nio"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -29,12 +29,12 @@ public class HttpServerDemo {
         }
     }
 
-    public static void service(Socket socket) {
+
+    public static void service(Socket socket, String body) {
         try {
             PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
             pw.println("HTTP/1.1 200 OK");
             pw.println("Content-Type:text/html;charset=utf-8");
-            String body = "hello, hi";
             pw.println("Content-Length:" + body.getBytes().length);
             pw.println();
             pw.write(body);
@@ -45,4 +45,5 @@ public class HttpServerDemo {
         }
 
     }
+
 }

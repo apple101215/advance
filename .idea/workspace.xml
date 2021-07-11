@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377932e-7c49-416d-b7fa-74204482c892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpServer02Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/LoginHttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/NettyHttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/作业6/HttpClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/作业6/HttpServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpServerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +38,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week1/XlassLoader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpServerDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpClientDemo.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -62,13 +76,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpClientDemo">
+  <component name="RunManager" selected="Application.HttpServerDemo">
     <configuration name="HttpClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week2.HttpClientDemo" />
       <module name="advance" />
@@ -95,15 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="NettyHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week3.NettyHttpServer" />
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sundy.advance.homework.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +146,13 @@
       <item itemvalue="Application.HttpClientDemo" />
       <item itemvalue="Application.HttpServerDemo" />
       <item itemvalue="Spring Boot.AdvanceApplication" />
+      <item itemvalue="Application.NettyHttpServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpClientDemo" />
+        <item itemvalue="Application.NettyHttpServer" />
         <item itemvalue="Application.HttpServerDemo" />
+        <item itemvalue="Application.HttpClientDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +165,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624797987263</updated>
       <workItem from="1624797989026" duration="756000" />
-      <workItem from="1625405681004" duration="2823000" />
+      <workItem from="1625405681004" duration="3862000" />
+      <workItem from="1626013405289" duration="1764000" />
     </task>
     <servers />
   </component>
