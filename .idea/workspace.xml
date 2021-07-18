@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377932e-7c49-416d-b7fa-74204482c892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/HttpServer02Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/LoginHttpRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week3/NettyHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/作业6/HttpClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpClientDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/作业6/HttpServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2/HttpServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/CompletableFuture0302.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/Condition0306.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/Future0301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/FutureTask0303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/FutureTask0304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/Notify0305.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -76,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week1" />
     </key>
@@ -84,13 +82,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpServerDemo">
-    <configuration name="HttpClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week2.HttpClientDemo" />
+  <component name="RunManager" selected="Application.Condition0306">
+    <configuration name="CompletableFuture0302" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.secondQuestion.CompletableFuture0302" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sundy.advance.homework.week2.*" />
+          <option name="PATTERN" value="com.sundy.advance.homework.week4.secondQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week2.HttpServerDemo" />
+    <configuration name="Condition0306" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.secondQuestion.Condition0306" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sundy.advance.homework.week2.*" />
+          <option name="PATTERN" value="com.sundy.advance.homework.week4.secondQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +109,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week3.NettyHttpServer" />
+    <configuration name="FutureTask0303" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.secondQuestion.FutureTask0303" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sundy.advance.homework.week3.*" />
+          <option name="PATTERN" value="com.sundy.advance.homework.week4.secondQuestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTask0304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.secondQuestion.FutureTask0304" />
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sundy.advance.homework.week4.secondQuestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notify0305" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.secondQuestion.Notify0305" />
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sundy.advance.homework.week4.secondQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,16 +167,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HttpClientDemo" />
-      <item itemvalue="Application.HttpServerDemo" />
       <item itemvalue="Spring Boot.AdvanceApplication" />
-      <item itemvalue="Application.NettyHttpServer" />
+      <item itemvalue="Application.CompletableFuture0302" />
+      <item itemvalue="Application.FutureTask0303" />
+      <item itemvalue="Application.FutureTask0304" />
+      <item itemvalue="Application.Notify0305" />
+      <item itemvalue="Application.Condition0306" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyHttpServer" />
-        <item itemvalue="Application.HttpServerDemo" />
-        <item itemvalue="Application.HttpClientDemo" />
+        <item itemvalue="Application.Condition0306" />
+        <item itemvalue="Application.FutureTask0304" />
+        <item itemvalue="Application.Notify0305" />
+        <item itemvalue="Application.FutureTask0303" />
+        <item itemvalue="Application.CompletableFuture0302" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +194,9 @@
       <updated>1624797987263</updated>
       <workItem from="1624797989026" duration="756000" />
       <workItem from="1625405681004" duration="3862000" />
-      <workItem from="1626013405289" duration="1764000" />
+      <workItem from="1626013405289" duration="2955000" />
+      <workItem from="1626359783876" duration="298000" />
+      <workItem from="1626449497236" duration="2793000" />
     </task>
     <servers />
   </component>
