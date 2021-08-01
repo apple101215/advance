@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * <p>
  * 一个简单的代码参考：
  */
-public class Condition0306 {
+public class  Condition0306 {
     private static final Lock lock = new ReentrantLock();
     private static final Condition notComplete = lock.newCondition();
     private static int result = 0;
