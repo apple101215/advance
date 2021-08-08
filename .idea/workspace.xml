@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9377932e-7c49-416d-b7fa-74204482c892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/CurDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DataSourceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DataSourceNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DynamicDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SpringBootDynamicCurDataSourceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9377932e-7c49-416d-b7fa-74204482c892" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +194,7 @@
       <workItem from="1626359783876" duration="298000" />
       <workItem from="1626449497236" duration="3897000" />
       <workItem from="1627824760083" duration="628000" />
-      <workItem from="1627827096186" duration="2825000" />
+      <workItem from="1627827096186" duration="3218000" />
     </task>
     <servers />
   </component>
