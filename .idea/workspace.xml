@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377932e-7c49-416d-b7fa-74204482c892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week6/question6.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/question2/Condition0306.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4/question2/Condition0306.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/CurDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DataSourceNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/DynamicDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SpringBootDynamicCurDataSourceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7/question9/test/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -69,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week7" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week6" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week4" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sundy/advance/homework/week2" />
@@ -80,20 +92,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Notify0305">
-    <configuration name="CompletableFuture0302" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.question2.CompletableFuture0302" />
-      <module name="advance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sundy.advance.homework.week4.question2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GenerateInsertSql">
     <configuration name="Condition0306" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.question2.Condition0306" />
       <module name="advance" />
@@ -133,6 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenerateInsertSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week7.GenerateInsertSql" />
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sundy.advance.homework.week7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Notify0305" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sundy.advance.homework.week4.question2.Notify0305" />
       <module name="advance" />
@@ -146,15 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,20 +177,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompletableFuture0302" />
       <item itemvalue="Application.FutureTask0303" />
       <item itemvalue="Application.FutureTask0304" />
       <item itemvalue="Application.Notify0305" />
       <item itemvalue="Application.Condition0306" />
       <item itemvalue="Spring Boot.AdvanceApplication" />
+      <item itemvalue="Application.GenerateInsertSql" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateInsertSql" />
         <item itemvalue="Application.Notify0305" />
         <item itemvalue="Application.Condition0306" />
         <item itemvalue="Application.FutureTask0304" />
         <item itemvalue="Application.FutureTask0303" />
-        <item itemvalue="Application.CompletableFuture0302" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +207,8 @@
       <workItem from="1626013405289" duration="2955000" />
       <workItem from="1626359783876" duration="298000" />
       <workItem from="1626449497236" duration="3897000" />
-      <workItem from="1627824760083" duration="423000" />
+      <workItem from="1627824760083" duration="628000" />
+      <workItem from="1627827096186" duration="2825000" />
     </task>
     <servers />
   </component>
